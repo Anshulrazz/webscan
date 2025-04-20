@@ -6,7 +6,7 @@ Website: https://www.anshtechsolutions.tech
 License: MIT
 """
 
-print('''
+banner = r'''
  __        __   _     ____                                  
  \ \      / /__| |__ |  _ \ _ __ _____  ___   _              
   \ \ /\ / / _ \ '_ \| |_) | '__/ _ \ \/ / | | |             
@@ -18,8 +18,10 @@ print('''
  Author  : Anshtech Solutions (Anshul Kumar - @Anshulrazz)
  Website : https://www.anshtechsolutions.tech
  License : MIT
+ Version: 2.0
 -------------------------------------------------------------
-''')
+'''
+print(banner)
 
 import argparse
 import json
